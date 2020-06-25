@@ -1,0 +1,13 @@
+---
+# Title: app-win-template
+#
+# Author: Luc Rutten
+# File: handlers/main.yml
+#
+# Description:
+#   Install Windows package on Endpoint
+
+- name: "Restart_Filezilla"
+  win_service:
+    name: FileZilla Server
+    state: restarted
