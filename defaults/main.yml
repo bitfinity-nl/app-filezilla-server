@@ -69,12 +69,14 @@ pkg_remove_public_start_menu_icon : 'false'
 # -- Filezilla server specific settings:
 #
 # Variable(s):
+#   ftp_gui_admin_password   : 'Password'     # Set th Gui Admin password.
 #   ftp_user                 : 'ftp_user'     # Set the first FTP user account.
 #   ftp_pass                 : 'ftp_pass'     # Set the first FTP user password.
 #   ftp_path                 : 'c:\ftp\'      # Set the path where the files will be stored.
 #   ftp_ip_filter_allowed    : '127.0.0.1'    # Set the allowed IP filter.
 #   ftp_ip_filter_disallowed : '*'            # Set the disallowed filter.
 #
+ftp_gui_admin_password   : 'Password' 
 ftp_user                 : 'ftp_user'
 ftp_pass                 : 'ftp_pass'
 ftp_path                 : 'c:\ftp\'
