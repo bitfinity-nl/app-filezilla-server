@@ -26,8 +26,8 @@
   when:
     - ansible_os_family == "Windows"
 
-#- name: "Uninstall package when state is absent"
-#  import_tasks: uninstall.yml
-#  when:
-#    - ansible_os_family == "Windows"
-#    - pkg_state == "absent"
+- name: "Uninstall package when state is absent"
+  import_tasks: uninstall.yml
+  when:
+    - ansible_os_family == "Windows"
+    - pkg_state == "absent"
